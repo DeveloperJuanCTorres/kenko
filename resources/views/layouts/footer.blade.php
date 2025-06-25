@@ -10,12 +10,13 @@
                         <a href=""><i class="fas fa-phone me-2"></i> (074) 435229</a>
                         <div class="d-flex align-items-center">
                             <i class="fas fa-share fa-2x text-secondary me-2"></i>
-                            <a class="btn mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn mx-1" href=""><i class="fa fa-envelope"></i></a>
+                            <a class="btn mx-1" href="{{$contactanos->facebook}}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn mx-1" href="{{$contactanos->instagram}}" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn mx-1" href="contact"><i class="fa fa-envelope"></i></a>
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-md-6 col-lg-6 col-xl-4">
                     <div class="footer-item d-flex flex-column">
                         <h4 class="text-secondary mb-4">Enlaces útiles</h4>
